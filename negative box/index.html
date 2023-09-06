@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Negative Box</title>
+    <style>
+        body {
+            background-color:#ffc9e2; 
+            font-family: "Verdana", sans-serif; 
+            color: darkgrey; 
+            margin: 0;
+            padding: 0; 
+        }
+        h1 {
+            text-align: center; 
+        }
+        p {
+            text-align: center; 
+        }
+        a {
+            color: #4cc4fc;
+            text-decoration: none; 
+        }
+        a:hover {
+            text-decoration: underline; 
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Negative Box</h1>
+    
+    <p style="text-align: center;"> The "Negative Box" is an interactive and customizable instrument that allows users to hear picures. 
+      To construct the inner workings of the box, I used the adafruit AS7341 10-Channel Light Color Sensor Breakout, which I then connected to 
+      Ableton through p5.js. Each of the 8 color readings that the sensor takes is mapped to a control change on Ableton which determines things
+      like pitch, reverb, filter cutoff, and many more things. In order for the sensor to see the color-light readings, film negatives are used 
+      in the box, which also contains magenta, yellow, and blue lights so the sensor can read the pictures as they were taken. 
+
+      Once this was done, I had to find a way for my music box to be easy to use. I was inspired by those tiny hand-crank music boxes that only 
+      play one song, and I thought of a design that would work easily with a user and with the sensor. I then build a little house for my breadboard, 
+      and sat the roll of film negatives on top, to let light though to the center. At the end of the box, there is a similarly designed hand hand-crank
+     for users to propel the box on their own.</p>
+    
+    <div style="text-align: center;">
+        <img src="negativebox.png" alt="A small wooden box painted silver, with a cylinder roll of film negatives on top of it." width="500" height="400";>
+    </div>
+    
+    <p style="text-align: center;"><a href="https://icantevendothat.notion.site/Final-Project-9f5696211e0b42fba3a85766987e4c33" target="_blank">Here</a> is my final documentation of the project.</p>
+</body>
+</html>
